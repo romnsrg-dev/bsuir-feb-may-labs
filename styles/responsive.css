@@ -1,0 +1,203 @@
+/* responsive.css */
+@media screen and (max-device-width: 979px) {
+    .main-nav {
+        display: none;
+    }
+    .image-gallery .icon-arrow {
+        width: 100vw;
+        height: 70vw;
+    }
+    .text-columns .text-column--right {
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .mobile-nav .mobile-nav-title {
+        display: block;
+        margin: auto;
+        margin-left: 20px;
+    }
+    .mobile-nav-icon > img {
+        height: -webkit-fill-available;
+        padding: 20%;
+    }
+    .mobile-nav-icon {
+        aspect-ratio: 1/1;
+        width: max-content;
+    }
+    .image-gallery > .icon-arrow > img {
+        width: 55px;
+    }
+    .robin-hood-banner > .icon-arrow > img {
+        width: 25px;
+    }
+    .blaz-robar-banner-subtitle > .icon-arrow > img {
+        width: 20px;
+    }
+}
+
+@media screen and (min-device-width: 980px) {
+    .mobile-nav {
+        display: none;
+    }
+    .navbar {
+        height: 95px;
+    }
+    .navbar .main-nav {
+        display: flex;
+        margin: auto;
+        margin-left: 20px;
+        justify-content: space-evenly;
+        font-weight: 600;
+    }
+    .image-gallery {
+        display: flex;
+        flex-direction: row;
+    }
+    .image-gallery div {
+        width: 33.4vw;
+    }
+    .text-columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-columns div {
+        max-width: 47%;
+    }
+    .text-columns .text-column--right {
+        font-weight: 700;
+    }
+    .image-gallery > .icon-arrow > img {
+        width: 25px;
+    }
+    .robin-hood-banner > .icon-arrow > img {
+        width: 35px;
+    }
+    .blaz-robar-banner-subtitle > .icon-arrow > img {
+        width: 25px;
+    }
+}
+
+@media screen and (min-device-width: 1024px) {
+    .blaz-robar-banner {
+        height: 580px;
+    }
+    .robin-hood-banner {
+        height: 245px;
+    }
+    .robin-hood-banner .icon-arrow {
+        width: 235px;
+    }
+    .image-gallery {
+        height: 295px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 55px;
+        margin: 10px 0;
+    }
+    .blaz-robar-banner-container {
+        margin: 150px 260px 0px 150px;
+    }
+    .blaz-robar-banner-subtitle {
+        max-width: 600px;
+    }
+    .navbar .main-nav {
+        width: 70%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width: 980px) and (max-device-width: 1023px) {
+    .blaz-robar-banner {
+        height: 550px;
+    }
+    .robin-hood-banner {
+        height: 235px;
+    }
+    .robin-hood-banner .icon-arrow {
+        width: 220px;
+    }
+    .image-gallery {
+        height: 270px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 10px 0;
+    }
+    .blaz-robar-banner-container {
+        margin: 150px 260px 0px 150px;
+    }
+    .blaz-robar-banner-subtitle {
+        max-width: 550px;
+    }
+    .navbar .main-nav {
+        width: 65%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-device-width: 640px) and (max-device-width: 979px) {
+    .navbar {
+        height: 75px;
+    }
+    .blaz-robar-banner {
+        height: 450px;
+    }
+    .robin-hood-banner {
+        height: 150px;
+    }
+    .robin-hood-banner .icon-arrow {
+        width: 145px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+    .blaz-robar-banner-container {
+        margin: 100px 260px 0px 150px;
+    }
+    .blaz-robar-banner-subtitle {
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 639px) {
+    .navbar {
+        height: 60px;
+    }
+    .blaz-robar-banner {
+        height: 375px;
+    }
+    .robin-hood-banner {
+        height: 80px;
+    }
+    .robin-hood-banner .icon-arrow {
+        width: 75px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    .blaz-robar-banner-container {
+        margin: 100px 260px 0px 150px;
+    }
+    .blaz-robar-banner-subtitle {
+        max-width: 320px;
+    }
+}

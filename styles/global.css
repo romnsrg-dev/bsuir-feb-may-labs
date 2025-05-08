@@ -1,0 +1,95 @@
+/* global.css */
+.bg-grey {
+    background-color: #373c3f;
+}
+.bg-turquoise {
+    background-color: #12abbf;
+}
+.bg-pink {
+    background-color: #bc3183;
+}
+.bg-dark-purple {
+    background-color: #27212c;
+}
+.bg-purple {
+    background-color: #5b0fa1;
+}
+.bg-light-grey {
+    background-color: #ebebeb;
+}
+.bg-dark-grey {
+    background-color: #202529;
+}
+.text-light-turquoise {
+    color: #a9d3dc;
+}
+.text-light-purple {
+    color: #9686a4;
+}
+.text-turquoise {
+    color: #088ca5;
+}
+.text-grey {
+    color: #767676;
+}
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+.robin-hood-banner {
+    display: flex;
+    flex-direction: row;
+}
+.robin-hood-banner-message {
+    width: 100%;
+    display: flex;
+}
+.robin-hood-banner-message h2 {
+    display: block;
+    margin: auto;
+}
+.icon-arrow {
+    display: flex;
+}
+.icon-arrow img {
+    display: block;
+    margin: auto;
+}
+.img-responsive {
+    width: 100%;
+    display: block;
+}
+.info-section {
+    padding: 40px 70px 70px 90px;
+}
+.blaz-robar-banner-subtitle {
+    display: flex;
+    flex-direction: row;
+}
+.blaz-robar-banner-subtitle div:first-child {
+    width: 100%;
+}
+.blaz-robar-banner {
+    box-shadow: 0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset,
+                0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset,
+                0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset,
+                0px 2px 1px rgba(0, 0, 0, 0.06),
+                0px 4px 2px rgba(0, 0, 0, 0.09),
+                0px 8px 4px rgba(0, 0, 0, 0.09),
+                0px 16px 8px rgba(0, 0, 0, 0.09);
+}
+.blaz-robar-banner-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-weight: 550;
+}
